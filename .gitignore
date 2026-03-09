@@ -1,0 +1,54 @@
+# OS / editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Project-generated outputs
+output/
+
+# Raw input reads
+data/input/
+
+# Bowtie index artifacts generated from FASTA references
+*.ebwt
+
+# DVGfinder runtime outputs and archives
+src/DVGfinder/Outputs/
+src/DVGfinder/FinalReports/
+src/DVGfinder/OldOutputs/
+
+# DVGfinder staged references/indexes are runtime artifacts
+src/DVGfinder/ExternalNeeds/references/
+!src/DVGfinder/ExternalNeeds/references/.gitkeep
+
+# DVGfinder transient root-level artifacts
+src/DVGfinder/*_df_ML.csv
+src/DVGfinder/*_df_ML.tsv
+src/DVGfinder/*.log
